@@ -24,6 +24,17 @@
 .Select-control:hover {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
 }
+.Select-category {
+  padding: 5px 10px;
+  color: #888888;
+  text-transform: capitalize;
+}
+.is-categorized.Select-option,
+.is-categorized.Select-searching,
+.is-categorized.Select-noresults,
+.is-categorized.Select-search-prompt {
+  padding-left: 20px;
+}
 .is-searchable.is-open > .Select-control {
   cursor: text;
 }
